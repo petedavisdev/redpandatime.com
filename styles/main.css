@@ -67,3 +67,7 @@ img.next-image {
 input {
   border: 1px solid;
 }
+
+.nav-line {
+  display: none;
+}

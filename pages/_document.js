@@ -9,9 +9,8 @@ class MyDocument extends Document {
   render() {
     const meta = {
       title: 'Red Panda Time',
-      description: 'A cute red panda every week',
-      image:
-        'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png'
+      description: 'A cute little red panda every week',
+      image: '/images/happy-new-year-red-panda.jpeg'
     }
 
     return (

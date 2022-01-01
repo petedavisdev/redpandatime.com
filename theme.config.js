@@ -4,7 +4,7 @@ export default {
   footer: (
     <footer>
       <form
-        style={{ display: 'block', marginTop: '8rem' }}
+        style={{ display: 'block', marginTop: '8rem', textAlign: 'center' }}
         action="https://tinyletter.com/redpandatime"
         method="post"
         target="popupwindow"
@@ -16,7 +16,7 @@ export default {
           </label>
         </p>
         <input
-          style={{ minWidth: '20em', paddingInline: '1em' }}
+          style={{ width: '20em', maxWidth: '100%', paddingInline: '1em' }}
           type="email"
           name="email"
           id="tlemail"
@@ -30,7 +30,9 @@ export default {
         />
       </form>
 
-      <small style={{ display: 'block', marginTop: '2rem' }}>
+      <small
+        style={{ display: 'block', textAlign: 'center', marginTop: '2rem' }}
+      >
         <a href="/feed.xml">RSS</a> |{' '}
         <a href="https://www.pinterest.co.uk/redpandatime/_created">
           Pinterest

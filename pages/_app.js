@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import 'nextra-theme-blog/style.css'
 import Head from 'next/head'
 
@@ -21,6 +22,13 @@ export default function Nextra({ Component, pageProps }) {
           crossOrigin="anonymous"
         />
       </Head>
+      <header
+        style={{ marginTop: '2rem', textAlign: 'center', fontWeight: 'bold' }}
+      >
+        <Link href="/">
+          <a>Red Panda Time</a>
+        </Link>
+      </header>
       <Component {...pageProps} />
     </>
   )
