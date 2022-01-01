@@ -32,7 +32,7 @@ export default {
 
       <small style={{ display: 'block', marginTop: '2rem' }}>
         <a href="/feed.xml">RSS</a> |{' '}
-        <a href="https://www.pinterest.co.uk/redpandatime/redpandatimecom/">
+        <a href="https://www.pinterest.co.uk/redpandatime/_created">
           Pinterest
         </a>{' '}
         | <a href="https://instagram.com/redpandatime">Instagram</a> |{' '}
