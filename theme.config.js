@@ -12,7 +12,7 @@ export default {
       >
         <p>
           <label for="tlemail">
-            Email me when it's red panda time (about once a week)
+            Get an email when it's red panda time (about once a week)
           </label>
         </p>
         <input
